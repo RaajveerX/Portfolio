@@ -13,7 +13,7 @@ import {ListItem} from "@mui/material"
 
 function Module(){
     return(
-        <Stack direction={"row"} spacing={1} padding={5}>
+        <Stack direction={"row"} spacing={1} padding={2}>
             <Stack spacing={1} sx={{background:"rgba(217, 217, 217, 0.08)",borderRadius:"20px"}} padding={5} width={"50%"}>
                 <Typography variant="h6" color={"#B6B6B6"} fontFamily={"Roboto Slab"} fontWeight={400}>CHANT APP</Typography>
                 <List sx={{listStyleType:"square",color:"#B6B6B6"}}>
@@ -21,7 +21,7 @@ function Module(){
                     <ListItem sx={{display:"list-item"}}>A chant has to be repeated a certain number of times which creates a certain involvement of the mind</ListItem>
                     <ListItem sx={{display:"list-item"}}>The purpose of this app is to keep the count for you</ListItem>
                     <ListItem sx={{display:"list-item"}}>This allows the user to be more mindful by delegating the counting part to this app</ListItem>
-                    <ListItem sx={{display:"list-item"}}>The plan is to use initially use audio processing and then move on to a machine learning model to recognize the chants</ListItem>
+                    <ListItem sx={{display:"list-item"}}>The plan is to use audio processin initially and then move on to a machine learning model to recognize the chants</ListItem>
                 </List>
             </Stack>
             <Stack direction={"row"} spacing={1} overflow={"scroll"} sx={{background:"rgba(217, 217, 217, 0.08)",borderRadius:"20px"}} padding={5} width={"50%"}>
@@ -40,8 +40,11 @@ export default function Upcoming(){
         <Box display={"flex"}>
             <Stack sx={{background:"black"}} textAlign={"center"} spacing={2}>
                 <Box textAlign={"center"}>
-                    <img src={Memoji} width="25%"/>
+                    <a href="/">
+                        <img src={Memoji} width="25%"/>
+                    </a>
                 </Box>
+                <Typography variant="h7" color={"gray"}>Click on the avatar to go back</Typography>
                 <Typography
                 color={"#E1E1E1"}
                 fontFamily={"Inter"}

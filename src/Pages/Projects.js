@@ -53,6 +53,12 @@ const foodie = {
     "github":"https://github.com/RaajveerX/FoodieFrenz"
 }
 
+function Linkop({info}){
+    if (info.link){
+        return <Button href={info.link} target={"_blank"} variant="outlined" startIcon={<LinkIcon/>} sx={{color:"white"}}>link</Button>
+    }
+}
+
 //We will pass props on this component
 function ProjectTile({info}){
     return(
@@ -80,9 +86,7 @@ function ProjectTile({info}){
                     <Button href={info.github} target={"_blank"} variant="outlined" startIcon={<GitHubIcon/>} sx={{color:"white"}}>
                         code
                     </Button>
-                    <Button href={info.link} target={"_blank"} variant="outlined" startIcon={<LinkIcon/>} sx={{color:"white"}}>
-                        link
-                    </Button>
+                    <Linkop info={info}/>
                 </Stack>
             </Stack>
 
