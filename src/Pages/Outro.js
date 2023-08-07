@@ -12,7 +12,8 @@ export default function Outro(){
                         <BuildOutlinedIcon sx={{color:"gray",paddingTop:"7px"}} fontSize="small" />
                         <Typography color={"white"} paddingTop={"6px"}>Made with React.js, JavaScript, MUI and CSS</Typography>
                     </Stack>
-                    <Button variant="outlined" sx={{color:"white",borderColor:"white",textTransform:"none",borderRadius:"50px"}}>Code for this website</Button>
+                    <Button variant="outlined" href={"https://github.com/RaajveerX/Portfolio"} target={"blank"}
+                    sx={{color:"white",borderColor:"white",textTransform:"none",borderRadius:"50px"}}>Code for this website</Button>
                     <Button href="/upcoming" variant="outlined" sx={{color:"white",backgroundColor:"rgba(0, 0, 0, 0.3)",textTransform:"none",borderRadius:"50px"}}>Upcoming Projects</Button>
                 </Stack>
                 <Stack>

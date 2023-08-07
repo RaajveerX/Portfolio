@@ -26,7 +26,7 @@ const imagecolor = {
         "Utilized MSE loss function to reduce loss by ∼ 98% resulting in more realistic and vibrant images",
         "Tuned hyperparameters such as learning rate and batch size to optimize the model by ∼ 10%"],
     "type":"Team",
-    "techs":["CNN's","PyTorch"]
+    "techs":["CNN's","PyTorch"],
 }
 
 const kendra = {
@@ -37,7 +37,9 @@ const kendra = {
     "bullets":["Utilized React and customized MUI components to develop a visually appealing task/course management solution for university students",
     "Implemented Redux as a state management solution reducing API calls by ∼20% and eliminating code redundancy",
     "Employed Node.js for server-side JavaScript execution and Express.js to write a scalable RESTful API",
-    "Integrated Mongoose API seamlessly into the MERN stack, ensuring a cohesive data schema and facilitating data validation"]
+    "Integrated Mongoose API seamlessly into the MERN stack, ensuring a cohesive data schema and facilitating data validation"],
+    "link":"https://kendraapi.netlify.app",
+    "github":"https://github.com/RaajveerX/Kendra-v2"
 }
 
 const foodie = {
@@ -47,7 +49,8 @@ const foodie = {
         "Collaborated with partners using the Git workflow and completed the project 7 days ahead of schedule exceeding project requirements and quality"],
     "title":"FoodieFrenz - Web Application",
     "from":"May 2023",
-    "techs":["Node.js","Express.js","Mongo-DB"]
+    "techs":["Node.js","Express.js","Mongo-DB"],
+    "github":"https://github.com/RaajveerX/FoodieFrenz"
 }
 
 //We will pass props on this component
@@ -74,10 +77,10 @@ function ProjectTile({info}){
                 </Stack>
 
                 <Stack direction={"column"} spacing={5} paddingTop={3}>
-                    <Button variant="outlined" startIcon={<GitHubIcon/>} sx={{color:"white"}}>
+                    <Button href={info.github} target={"_blank"} variant="outlined" startIcon={<GitHubIcon/>} sx={{color:"white"}}>
                         code
                     </Button>
-                    <Button variant="outlined" startIcon={<LinkIcon/>} sx={{color:"white"}}>
+                    <Button href={info.link} target={"_blank"} variant="outlined" startIcon={<LinkIcon/>} sx={{color:"white"}}>
                         link
                     </Button>
                 </Stack>

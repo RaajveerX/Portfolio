@@ -48,8 +48,9 @@ function About(){
 
 function Descript(){
     return (
-        <Stack margin={6} spacing={5}>
-            <Typography variant="h7" fontWeight={"4px"} color={"white"}>I'm passionate about creating beautifully designed and human-centric products that seamlessly integrate into people's lives. The intersection of creativity and technology is where my passion thrives, and music, as a form of art, has always been a significant source of inspiration for me.</Typography>
+        <Stack margin={6} spacing={3}>
+            <Typography variant="h7" fontWeight={"4px"} color={"white"}>I'm passionate about creating beautifully designed and human-centric products that seamlessly integrate into people's lives.</Typography>
+            <Typography variant="h7" fontWeight={"4px"} color={"white"}>The intersection of creativity and technology is where my passion thrives, and music, as a form of art, has always been a significant source of inspiration for me.</Typography>
             <Stack spacing={1} direction={"row"}>
                 <StarBorderOutlinedIcon fontSize="small" sx={{color:"white"}}/>
                 <Typography variant="h7" fontWeight={"4px"} color={"white"}>Fun Fact: I am the co-captain of a collegiate dance team called UMass Jazba which competes all over the U.S!</Typography>
