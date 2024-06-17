@@ -13,13 +13,12 @@ import { WorkOutlineOutlined } from "@mui/icons-material";
 const jazba ={
 
     "title":"UMass Jazba Fusion Dance Team",
-    "position":"Vice-President/Co-Captain",
+    "position":"Captain",
     "from":"Sep 2021",
     "to":"Present",
     "techs":["Choreography","Audio Editing","Video Editing"],
-    "bullets":["Collaborates with the exec board to train a team of 20+ diverse individuals in 7+ dance styles to compete in competitions nationwide ",
-        "Produces captivating and creative audio mixes using Logic Pro, enhancing performance quality and energy",
-        "Communicates with the executive board and advisors to reflect on feedback and increase club-recognition on-campus"]
+    "bullets":"Led a diverse team of 23 individuals and collaborated with the executive board to train for national competitions",
+        "Produced captivating and creative audio mixes using Logic Pro to support performance quality and energy"]
 }
 
 
