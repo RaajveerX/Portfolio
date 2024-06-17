@@ -37,9 +37,8 @@ function About(){
                 <Typography variant="h3" color="white" fontFamily={"Roboto Slab"} fontWeight="700" fontSize={"60px"}>Raaj</Typography>
                 <Typography variant="h6" color={"white"} fontWeight="10">University of Massachussets, Amherst</Typography>
                 <Stack>
-                    <Typography variant="h6" color={"white"} fontWeight="10">Computer Science | Math</Typography>
-                    <Typography variant="h6" color={"white"} fontWeight="40">Graduating May 2024</Typography>
-                    <Typography variant="h6" color={"white"} fontWeight="40">GPA: 3.58</Typography>
+                    <Typography variant="h6" color={"white"} fontWeight="10">B.S. Computer Science | Minor in Math</Typography>
+                    <Typography variant="h6" color={"white"} fontWeight="40">Graduation Date: May 2024</Typography>
                 </Stack>
             </Stack>
         </Stack>
@@ -67,11 +66,11 @@ function Descript(){
 }
 
 const skills = ["Git", "GitHub", "Postman", "Figma",
-"React.js", "Node.js", "Express.js", "Redux", "MUI", "Axios", "Mongo-DB", "PyTorch"]
+"React.js", "Node.js", "Express.js", "Redux", "MUI", "Axios", "Mongo-DB", "PyTorch", "ServiceNow", "Azure"]
 
-const languages = ["Python", "JavaScript", "Java", "C", "HTML"]
+const languages = ["Python", "JavaScript", "Java", "C", "C++", "CSS", "HTML"]
 
-const courses = ["Web Programming", "Machine Learning", "AI", "Data Structures", "Algorithms", "Object-oriented programming", "Operating Systems","Programming Methodology","Secure Distributed Systems","Information Retrieval"]
+const courses = ["Web Programming", "Machine Learning", "AI", "Data Structures", "Algorithms", "Object-oriented programming", "Operating Systems","Programming Methodology","Secure Distributed Systems","Information Retrieval", "UI/UX"]
 
 function Skills(){
     return (
