@@ -59,7 +59,7 @@ function Descript(){
                 sx={{borderRadius:"20px",color:"white"}} startIcon={<LinkedInIcon/>}>LinkedIn</Button>
                 <Button variant="outlined" href="https://github.com/RaajveerX" target={"_blank"}
                 sx={{borderRadius:"20px",color:"white"}} startIcon={<GitHubIcon/>}>GitHub</Button>
-                <Button variant="contained" disableTouchRipple disableFocusRipple disableRipple sx={{borderRadius:"20px",backgroundColor:"rgba(217, 217, 217, 0.16);",color:"white",textTransform:"none"}} startIcon={<MailOutlineOutlined/>}>rsokhi@umass.edu</Button>
+                <Button variant="contained" disableTouchRipple disableFocusRipple disableRipple sx={{borderRadius:"20px",backgroundColor:"rgba(217, 217, 217, 0.16);",color:"white",textTransform:"none"}} startIcon={<MailOutlineOutlined/>}>raajveersinghusa@gmail.com</Button>
             </Stack>
         </Stack>
     )
