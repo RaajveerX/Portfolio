@@ -19,13 +19,29 @@ softs -> soft skills, technicals
 bullets -> 
 */
 
+const chan  {
+    "title":"Software Automation Engineer Intern - UMass Chan Medical School",
+    "from":"Sept 2023",
+    "to":"Present",
+    "techs":["ServiceNow", "Agile Team", "Azure",],
+    "bullets":["Automated AD group creation for micro-sites using Graph API and Azure functions, cutting down the processing time",
+               "Redesigned micro-site request forms in ServiceNow (SNOW) to improve information visibility for form fulfillers",
+               "Added automated email notifications to update users on request progress boosting user satisfaction",
+               "Reduced the testing cycle by 50% by implementing automated tests using the Automated Testing Framework in SNOW",
+               "Automate micro-site creation using Azure Service Buses as a middle layer to decrease setup time",
+               "Actively participate in daily stand-ups and weekly design sessions ensuring alignment with sprints"
+    ]
+    
+
+}
+
 const it = {
     "title":"Student IT Consultant - UMass IT",
     "from" : "Aug 2022",
-    "to" : "Present",
+    "to" : "Aug 2023",
     "techs":["Information Technology","Customer Service", "Problem solving"],
-    "bullets":[ "Provides in-person technical support to students and faculty, resolving an average of 35 daily service tickets",
-    "Handles ∼ 30 on-demand remote support requests per week with a resolution rate of 98%"
+    "bullets":[ "Delivered in-person technical support to students and faculty resolving an average of 35 tickets per day",
+    "Handled ~30 remote support requests per week with a 98% resolution rate"
     ]
 }
 
@@ -35,8 +51,8 @@ const tutor = {
     "to":"May 2023",
     "techs":["Problem solving","Tutoring","Debugging"],
     "bullets":["Tutored an average of 8 students per week resulting in improved understanding of projects and course material",
-        "Supported students in debugging projects and resolving code errors with a student satisfaction rating of 5/5 based on tutee feedback surveys",
-        "Courses Supported: Artificial Intelligence, Programming Data Structures w/Java, Programming Basics w/Java"]
+        "Supported students in debugging projects with a student satisfaction rating of 5/5 based on surveys",
+        "Courses Supported: Artificial Intelligence (Python), Programming Data Structures (Java), Programming Basics (Java)"]
 }
 
 
@@ -76,6 +92,7 @@ export default function Work(){
                 <WorkOutlineOutlined fontSize="large" sx={{color:"white",paddingTop:"2px"}}/>
                 <Typography variant="h4" color={"white"}>Work Experience</Typography>
             </Stack>
+            <WorkTile info={chan}/>
             <WorkTile info={it}/>
             <WorkTile info={tutor}/>
         </Stack>
