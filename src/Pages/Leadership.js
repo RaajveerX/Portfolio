@@ -17,7 +17,7 @@ const jazba ={
     "from":"Sep 2021",
     "to":"Present",
     "techs":["Choreography","Audio Editing","Video Editing"],
-    "bullets":"Led a diverse team of 23 individuals and collaborated with the executive board to train for national competitions",
+    "bullets":["Led a diverse team of 23 individuals and collaborated with the executive board to train for national competitions",
         "Produced captivating and creative audio mixes using Logic Pro to support performance quality and energy"]
 }
 
