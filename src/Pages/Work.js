@@ -19,7 +19,7 @@ softs -> soft skills, technicals
 bullets -> 
 */
 
-const chan  {
+const chan = {
     "title":"Software Automation Engineer Intern - UMass Chan Medical School",
     "from":"Sept 2023",
     "to":"Present",
