@@ -21,10 +21,10 @@ const imagecolor = {
 
     "title":"Image Colorizer- ML Model",
     "from": "May 2023",
-    "bullets": ["Infused color to grayscale images by leveraging the PyTorch framework and creating a machine-learning model",
-        "Achieved accurate feature extraction by training the model on grayscale images and designing a custom CNN architecture with multiple convolutional layers",
-        "Utilized MSE loss function to reduce loss by ∼ 98% resulting in more realistic and vibrant images",
-        "Tuned hyperparameters such as learning rate and batch size to optimize the model by ∼ 10%"],
+    "bullets": ["Infused color to grayscale images by leveraging the PyTorch framework and by creating a machine-learning model",
+        "Achieved accurate feature extraction by training the model on grayscale images and by designing a CNN",
+        "Utilized MSE loss function to reduce loss by ~90% resulting in more realistic and vibrant images",
+        "Tuned hyper-parameters such as learning rate and batch size to optimize the model"],
     "type":"Team",
     "techs":["CNN's","PyTorch"],
 }
@@ -35,7 +35,7 @@ const kendra = {
     "from":"August 2022",
     "techs":["Mongo-DB","React.js","Express.js","Node.js"],
     "bullets":["Utilized React and customized MUI components to develop a visually appealing task/course management solution for university students",
-    "Implemented Redux as a state management solution reducing API calls by ∼20% and eliminating code redundancy",
+    "Used Redux as a state management solution reducing API calls by ∼20% and eliminating code redundancy",
     "Employed Node.js for server-side JavaScript execution and Express.js to write a scalable RESTful API",
     "Integrated Mongoose API seamlessly into the MERN stack, ensuring a cohesive data schema and facilitating data validation"],
     "link":"https://kendraapi.netlify.app",
