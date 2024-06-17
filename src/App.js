@@ -17,8 +17,8 @@ function App0() {
     <div style={{margin:"50px"}}>
       <Stack spacing={5}>
         <Intro/>
-        <Projects/>
         <Work/>
+        <Projects/>
         <Leadership/>
         <Outro/>
       </Stack>
