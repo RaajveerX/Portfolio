@@ -35,9 +35,11 @@ const kendra = {
     "from":"August 2022",
     "techs":["Mongo-DB","React.js","Express.js","Node.js"],
     "bullets":["Utilized React and customized MUI components to develop a visually appealing task/course management solution for university students",
-    "Used Redux as a state management solution reducing API calls by ∼20% and eliminating code redundancy",
-    "Employed Node.js for server-side JavaScript execution and Express.js to write a scalable RESTful API",
-    "Integrated Mongoose API seamlessly into the MERN stack, ensuring a cohesive data schema and facilitating data validation"],
+                "Implemented Redux as a state management solution reducing API calls by ∼20% and eliminating code redundancy",
+                "Employed Node.js for server-side JavaScript execution and Express.js to write a scalable RESTful API",                
+                "Integrated Mongoose API seamlessly into the MERN stack, ensuring a cohesive data schema and facilitating data validation",               
+                "Utilized Axios and JavaScript Promises to integrate API calls, optimizing request and error handling"
+              ],
     "link":"https://kendraapi.netlify.app",
     "github":"https://github.com/RaajveerX/Kendra-v2"
 }
