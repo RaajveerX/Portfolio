@@ -17,8 +17,8 @@ const jazba ={
     "from":"Sep 2021",
     "to":"Present",
     "techs":["Choreography","Audio Editing","Video Editing"],
-    "bullets":["Led a diverse team of 23 individuals and collaborated with the executive board to train for national competitions",
-        "Produced captivating and creative audio mixes using Logic Pro to support performance quality and energy"]
+    "bullets":[ "Championed diversity and inclusion, leading a team of 23 in collaboration with an exec-board to promote South Asian dance and culture",
+               "Engineered captivating audio mixes using Logic Pro, elevating performance energy and audience engagement"]
 }
 
 
@@ -27,8 +27,9 @@ const hack = {
 
     "title":"HackUMass",
     "position":"Organizing PR Team",
-    "bullets":["Produced social media content increasing overall event awareness and student registrations by 40% for HackUMass X",
-        "Documented workshops and events on social media during the hackathon enabling a wider audience to benefit from valuable insights and experiences"],
+    "bullets":[
+        "Produced social media content increasing event awareness and student registrations by 40% for HackUMass X",
+        "Increased social media reach by documenting workshops, enabling a wider audience to benefit from the hackathon"],
     "from":"May 2022",
     "to":"May 2023",
     "techs":["Marketing","Graphic Design"]
