@@ -17,8 +17,9 @@ const jazba ={
     "from":"Sep 2021",
     "to":"Present",
     "techs":["Choreography","Audio Editing","Video Editing"],
-    "bullets":[ "Championed diversity and inclusion, leading a team of 23 in collaboration with an exec-board to promote South Asian dance and culture",
-               "Engineered captivating audio mixes using Logic Pro, elevating performance energy and audience engagement"]
+    "bullets":["Championed diversity and inclusion, co-leading a team of 23 in collaboration with an exec-board to promote South Asian dance and culture",
+               "Created captivating audio mixes using Logic Pro, elevating performance energy and audience engagement",
+               "Choreographed Dance segments and formations in collaboration with choreographers and the eboard"]
 }
 
 
