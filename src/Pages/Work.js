@@ -24,12 +24,13 @@ const chan = {
     "from":"Sept 2023",
     "to":"Present",
     "techs":["ServiceNow", "Agile Team", "Azure",],
-    "bullets":["Automated AD group creation for micro-sites using Graph API and Azure functions, cutting down the processing time",
-               "Redesigned micro-site request forms in ServiceNow (SNOW) to improve information visibility for form fulfillers",
-               "Added automated email notifications to update users on request progress boosting user satisfaction",
-               "Reduced the testing cycle by 50% by implementing automated tests using the Automated Testing Framework in SNOW",
-               "Automate micro-site creation using Azure Service Buses as a middle layer to decrease setup time",
-               "Actively participate in daily stand-ups and weekly design sessions ensuring alignment with sprints"
+    "bullets":["Developed an automated, serverless system in C# using Azure Functions and Microsoft Graph API to create Microsoft Entra ID groups on demand, significantly reducing the manual effort to create groups",
+                "Collaborated with a cross-functional agile team to implement C# scripts in Optimizely (a content management system), reducing micro-site setup time",
+                "Wrote JavaScript scripts within ServiceNow to process request form inputs and present clear task details to fulfillment groups, reducing the time required to look up information by 15% and improving request turnaround time",
+                "Implemented Azure Service Buses (a message broker system) to facilitate communication between applications, automating the creation of new microsites in Optimizely, and boosting team productivity by 30%",
+                "Updated forms and flows in ServiceNow, enhancing readability for both requesters and fulfillers",
+                "Added automated email notifications to update users on request progress, boosting user satisfaction",
+                "Reduced the testing cycle by 50% by implementing automated tests using the Automated Testing Framework in ServiceNow"
     ]
     
 
@@ -40,9 +41,8 @@ const it = {
     "from" : "Aug 2022",
     "to" : "Aug 2023",
     "techs":["Information Technology","Customer Service", "Problem solving"],
-    "bullets":[ "Delivered in-person technical support to students and faculty resolving an average of 35 tickets per day",
-    "Handled ~30 remote support requests per week with a 98% resolution rate"
-    ]
+    "bullets":["Handled tickets on the ServiceNow platform and delivered in-person technical support to students and faculty resolving an average of 35 tickets per day reducing technical disruption",
+               "Handled ~30 remote support requests per week on the BeyondTrust Remote Support Client achieving a 98% resolution rate"]
 }
 
 const tutor = {
