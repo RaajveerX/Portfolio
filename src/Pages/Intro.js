@@ -68,9 +68,9 @@ function Descript(){
 const skills = ["Git", "GitHub", "Postman", "Figma",
 "React.js", "Node.js", "Express.js", "Redux", "MUI", "Axios", "Mongo-DB", "PyTorch", "ServiceNow", "Azure"]
 
-const languages = ["Python", "JavaScript", "Java", "C", "C++", "CSS", "HTML"]
+const languages = ["Python", "JavaScript", "Java", "C", "C++", "C#", "CSS", "HTML"]
 
-const courses = ["Web Programming", "Machine Learning", "AI", "Data Structures", "Algorithms", "Object-oriented programming", "Operating Systems","Programming Methodology","Secure Distributed Systems","Information Retrieval", "UI/UX"]
+const courses = ["Web Programming", "Machine Learning", "Artificial Intelligence (AI)", "Data Structures", "Algorithms", "Object-Oriented programming", "Operating Systems","Programming Methodology","Secure Distributed Systems","Information Retrieval", "UI/UX Design"]
 
 function Skills(){
     return (
