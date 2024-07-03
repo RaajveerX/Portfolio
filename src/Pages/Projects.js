@@ -44,9 +44,13 @@ const kendra = {
 
 const foodie = {
     "bullets":["Developed a web application empowering users to access restaurant recommendations, save their favorite restaurants and post reviews",
-        "Conducted thorough API testing using Postman minimizing potential occurrences of critical errors",
-        "Optimized database implementation by transitioning from Pouch-DB to Mongo-DB, enhancing scalability and enabling easy integration of additional features",
-        "Collaborated with partners using the Git workflow and completed the project 7 days ahead of schedule exceeding project requirements and quality"],
+                "Designed an easy-to-use frontend in Figma and implemented it using Bootstrap components",
+                "Wrote a RESTful API that facilitates essential CRUD operations using Node.js and Express.js allowing users to store personal information, reviews and access restaurant recommendations",
+                "Optimized database implementation by transitioning from Pouch-DB to Mongo-DB enhancing scalability",
+                "Employed Test-Driven Development with Postman for comprehensive API testing guaranteeing reliable functionality",
+                "Used Git as the primary version control system to streamline collaboration across the team",
+              
+              ],
     "title":"FoodieFrenz - Web Application",
     "from":"May 2023",
     "techs":["Node.js","Express.js","Mongo-DB"],
